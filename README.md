@@ -2,17 +2,17 @@
 
 ## Projet MyWeeklyAllowance
 
-Vous allez concevoir un module de gestion d’argent de poche pour adolescents, selon la méthode TDD (Test Driven Development).
+Vous allez concevoir un module de gestion d'argent de poche pour adolescents, selon la méthode TDD (Test Driven Development).
 
-**Votre mission :** commencer par les tests unitaires, puis développer le code étape par étape jusqu’à ce que tous les tests passent.
+**Votre mission :** commencer par les tests unitaires, puis développer le code étape par étape jusqu'à ce que tous les tests passent.
 
 ## Contexte du projet : MyWeeklyAllowance
 
-L’application MyWeeklyAllowance permet aux parents de gérer un “porte-monnaie virtuel” pour leurs ados.
-Chaque adolescent a un compte d’argent de poche, et chaque parent peut :
+L'application MyWeeklyAllowance permet aux parents de gérer un "porte-monnaie virtuel" pour leurs ados.
+Chaque adolescent a un compte d'argent de poche, et chaque parent peut :
 
 - créer un compte pour un ado,
-- déposer de l’argent,
+- déposer de l'argent,
 - enregistrer des dépenses,
 - fixer une allocation hebdomadaire automatique.
 
@@ -22,3 +22,37 @@ Chaque adolescent a un compte d’argent de poche, et chaque parent peut :
 - Phase 2 – Implémentation du code (BLUE)
 - Phase 3 – Refactoring (GREEN)
 - Phase 4 – Vérification de la couverture
+
+## Installation
+
+### Prérequis
+
+- PHP 8.1 ou supérieur
+- Composer
+
+### Cloner le dépôt
+
+```bash
+git clone <URL_DU_REPO>
+cd TDD
+```
+
+### Installer les dépendances
+
+```bash
+composer install
+```
+
+## Lancer les tests
+
+```bash
+vendor/bin/phpunit
+```
+
+### Lancer les tests avec couverture de code
+
+```bash
+vendor/bin/phpunit --coverage-text
+```
+
+> **Note :** Pour la couverture de code, vous devez avoir Xdebug ou PCOV installé.
