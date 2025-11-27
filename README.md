@@ -54,5 +54,3 @@ vendor/bin/phpunit
 ```bash
 vendor/bin/phpunit --coverage-text
 ```
-
-> **Note :** Pour la couverture de code, vous devez avoir Xdebug ou PCOV installé.
